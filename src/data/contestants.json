@@ -1,0 +1,1456 @@
+{
+  "totalPages": 5,
+  "totalElements": 122,
+  "contestants": [
+    {
+      "contestantId": 32,
+      "name": "1. FC Heidenheim ",
+      "nameShort1": "Heidenheim",
+      "nameShort2": "FCH",
+      "description": "",
+      "status": true,
+      "logoURL": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
+      "logoURL2": "",
+      "sportType": {
+        "sportTypeId": 5,
+        "name": "Football",
+        "description": "Football is a ball sport in which two teams compete against each other with the aim of scoring more goals than the opponent and thus winning the game.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Fußball",
+            "description": "Fußball ist eine Ballsportart, bei der zwei Mannschaften mit dem Ziel gegeneinander antreten, mehr Tore als der Gegner zu erzielen und so das Spiel zu gewinnen.",
+            "sportTypeTranslationId": 11
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "male",
+      "contestantTranslations": [],
+      "lastModifiedDate": "2022-03-21T00:12:53.000+0000",
+      "lastModifiedBy": "psommer@trade4sports.net"
+    },
+    {
+      "contestantId": 53,
+      "name": "1. FC Kaiserslautern",
+      "nameShort1": "Kaiserslautern",
+      "nameShort2": "FCK",
+      "description": "",
+      "status": true,
+      "logoURL": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
+      "logoURL2": "",
+      "sportType": {
+        "sportTypeId": 5,
+        "name": "Football",
+        "description": "Football is a ball sport in which two teams compete against each other with the aim of scoring more goals than the opponent and thus winning the game.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Fußball",
+            "description": "Fußball ist eine Ballsportart, bei der zwei Mannschaften mit dem Ziel gegeneinander antreten, mehr Tore als der Gegner zu erzielen und so das Spiel zu gewinnen.",
+            "sportTypeTranslationId": 11
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "male",
+      "contestantTranslations": [],
+      "lastModifiedDate": "2021-07-14T06:37:38.000+0000",
+      "lastModifiedBy": "fkomp@trade4sports.com"
+    },
+    {
+      "contestantId": 9,
+      "name": "1. FC Köln",
+      "nameShort1": "1. FC Köln",
+      "nameShort2": "KOE",
+      "description": "",
+      "status": true,
+      "logoURL": "https://upload.wikimedia.org/wikipedia/en/5/53/FC_Cologne_logo.svg",
+      "logoURL2": "https://www.koeln.de/files/koeln/sport_02/fc-teamfoto2019_print_hl-9571_3000.jpg",
+      "sportType": {
+        "sportTypeId": 5,
+        "name": "Football",
+        "description": "Football is a ball sport in which two teams compete against each other with the aim of scoring more goals than the opponent and thus winning the game.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Fußball",
+            "description": "Fußball ist eine Ballsportart, bei der zwei Mannschaften mit dem Ziel gegeneinander antreten, mehr Tore als der Gegner zu erzielen und so das Spiel zu gewinnen.",
+            "sportTypeTranslationId": 11
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "male",
+      "contestantTranslations": []
+    },
+    {
+      "contestantId": 31,
+      "name": "1. FC Nürnberg",
+      "nameShort1": "Nürnberg",
+      "nameShort2": "FCN",
+      "description": "",
+      "status": true,
+      "logoURL": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N%C3%BCrnberg_logo.svg",
+      "logoURL2": "",
+      "sportType": {
+        "sportTypeId": 5,
+        "name": "Football",
+        "description": "Football is a ball sport in which two teams compete against each other with the aim of scoring more goals than the opponent and thus winning the game.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Fußball",
+            "description": "Fußball ist eine Ballsportart, bei der zwei Mannschaften mit dem Ziel gegeneinander antreten, mehr Tore als der Gegner zu erzielen und so das Spiel zu gewinnen.",
+            "sportTypeTranslationId": 11
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "male",
+      "contestantTranslations": [],
+      "lastModifiedDate": "2021-07-14T06:36:57.000+0000",
+      "lastModifiedBy": "frederic.komp@web.de"
+    },
+    {
+      "contestantId": 47,
+      "name": "1. FC Saarbrücken",
+      "nameShort1": "Saarbrücken",
+      "nameShort2": "FCS",
+      "description": "",
+      "status": true,
+      "logoURL": "https://upload.wikimedia.org/wikipedia/de/f/ff/1._FC_Saarbr%C3%BCcken.svg",
+      "logoURL2": "https://www.fc-saarbruecken.de/fileadmin/_processed_/4/d/csm_Mannschaftsbild_A2_2020-Final_2a4476455a.jpg",
+      "sportType": {
+        "sportTypeId": 5,
+        "name": "Football",
+        "description": "Football is a ball sport in which two teams compete against each other with the aim of scoring more goals than the opponent and thus winning the game.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Fußball",
+            "description": "Fußball ist eine Ballsportart, bei der zwei Mannschaften mit dem Ziel gegeneinander antreten, mehr Tore als der Gegner zu erzielen und so das Spiel zu gewinnen.",
+            "sportTypeTranslationId": 11
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "male",
+      "contestantTranslations": []
+    },
+    {
+      "contestantId": 12,
+      "name": "1. FC Union Berlin",
+      "nameShort1": "Union Berlin",
+      "nameShort2": "UNI",
+      "description": "",
+      "status": true,
+      "logoURL": "https://upload.wikimedia.org/wikipedia/sco/f/fe/1._FC_Union_Berlin_logo.svg",
+      "logoURL2": "",
+      "sportType": {
+        "sportTypeId": 5,
+        "name": "Football",
+        "description": "Football is a ball sport in which two teams compete against each other with the aim of scoring more goals than the opponent and thus winning the game.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Fußball",
+            "description": "Fußball ist eine Ballsportart, bei der zwei Mannschaften mit dem Ziel gegeneinander antreten, mehr Tore als der Gegner zu erzielen und so das Spiel zu gewinnen.",
+            "sportTypeTranslationId": 11
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "male",
+      "contestantTranslations": []
+    },
+    {
+      "contestantId": 20,
+      "name": "1. FSV Mainz 05",
+      "nameShort1": "1. FSV Mainz 05",
+      "nameShort2": "M05",
+      "description": "",
+      "status": true,
+      "logoURL": "https://upload.wikimedia.org/wikipedia/commons/0/0b/FSV_Mainz_05_Logo.svg",
+      "logoURL2": "",
+      "sportType": {
+        "sportTypeId": 5,
+        "name": "Football",
+        "description": "Football is a ball sport in which two teams compete against each other with the aim of scoring more goals than the opponent and thus winning the game.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Fußball",
+            "description": "Fußball ist eine Ballsportart, bei der zwei Mannschaften mit dem Ziel gegeneinander antreten, mehr Tore als der Gegner zu erzielen und so das Spiel zu gewinnen.",
+            "sportTypeTranslationId": 11
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "male",
+      "contestantTranslations": []
+    },
+    {
+      "contestantId": 56,
+      "name": "1. Fußballclub Magdeburg e. V.",
+      "nameShort1": "1. FC Magdeburg",
+      "nameShort2": "FCM",
+      "description": "",
+      "status": true,
+      "logoURL": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
+      "logoURL2": "https://1.fc-magdeburg.de/images/mannschaften/mannschaft.jpg",
+      "sportType": {
+        "sportTypeId": 5,
+        "name": "Football",
+        "description": "Football is a ball sport in which two teams compete against each other with the aim of scoring more goals than the opponent and thus winning the game.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Fußball",
+            "description": "Fußball ist eine Ballsportart, bei der zwei Mannschaften mit dem Ziel gegeneinander antreten, mehr Tore als der Gegner zu erzielen und so das Spiel zu gewinnen.",
+            "sportTypeTranslationId": 11
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "male",
+      "contestantTranslations": []
+    },
+    {
+      "contestantId": 94,
+      "name": "1. hanna",
+      "nameShort1": "",
+      "nameShort2": "han",
+      "description": "",
+      "status": true,
+      "logoURL": "",
+      "logoURL2": "",
+      "sportType": {
+        "sportTypeId": 9,
+        "name": "Basketball",
+        "description": "Basketball is a team sport in which two teams, most commonly of five players each, opposing one another.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Basketball",
+            "description": "Basketball ist ein Mannschaftssport, bei dem sich zwei Mannschaften, meist mit je fünf Spielern, gegenüberstehen.",
+            "sportTypeTranslationId": 14
+          }
+        ]
+      },
+      "country": "Aruba",
+      "gender": "",
+      "contestantTranslations": [
+        {
+          "language": {
+            "countryCode": "DE",
+            "name": "Deutsch",
+            "languageId": 2
+          },
+          "name": "de",
+          "description": "de",
+          "contestantTranslationId": 5
+        }
+      ],
+      "lastModifiedDate": "2022-01-10T01:43:53.000+0000",
+      "lastModifiedBy": "hanna.bojadzic97@gmail.com"
+    },
+    {
+      "contestantId": 140,
+      "name": "2 hanna test",
+      "nameShort1": "hann",
+      "nameShort2": "han",
+      "description": "",
+      "status": true,
+      "logoURL": "",
+      "logoURL2": "",
+      "sportType": {
+        "sportTypeId": 5,
+        "name": "Football",
+        "description": "Football is a ball sport in which two teams compete against each other with the aim of scoring more goals than the opponent and thus winning the game.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Fußball",
+            "description": "Fußball ist eine Ballsportart, bei der zwei Mannschaften mit dem Ziel gegeneinander antreten, mehr Tore als der Gegner zu erzielen und so das Spiel zu gewinnen.",
+            "sportTypeTranslationId": 11
+          }
+        ]
+      },
+      "gender": "mixed",
+      "contestantTranslations": [],
+      "lastModifiedDate": "2022-01-10T01:44:54.000+0000",
+      "lastModifiedBy": "hanna.bojadzic97@gmail.com"
+    },
+    {
+      "contestantId": 101,
+      "name": "ALBA BERLIN",
+      "nameShort1": "ALBA BERLIN",
+      "nameShort2": "BER",
+      "description": "",
+      "status": true,
+      "logoURL": "https://trade4sports.online/media/img/logos/ALBA%20BERLIN.svg",
+      "logoURL2": "https://trade4sports.online/media/img/logos/ALBA%20BERLIN.svg",
+      "sportType": {
+        "sportTypeId": 9,
+        "name": "Basketball",
+        "description": "Basketball is a team sport in which two teams, most commonly of five players each, opposing one another.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Basketball",
+            "description": "Basketball ist ein Mannschaftssport, bei dem sich zwei Mannschaften, meist mit je fünf Spielern, gegenüberstehen.",
+            "sportTypeTranslationId": 14
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "male",
+      "contestantTranslations": []
+    },
+    {
+      "contestantId": 29,
+      "name": "Arminia Bielefeld ",
+      "nameShort1": "Arm. Bielefeld",
+      "nameShort2": "DSC",
+      "description": "",
+      "status": true,
+      "logoURL": "https://upload.wikimedia.org/wikipedia/de/e/e5/Logo_Arminia_Bielefeld.svg",
+      "logoURL2": "",
+      "sportType": {
+        "sportTypeId": 5,
+        "name": "Football",
+        "description": "Football is a ball sport in which two teams compete against each other with the aim of scoring more goals than the opponent and thus winning the game.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Fußball",
+            "description": "Fußball ist eine Ballsportart, bei der zwei Mannschaften mit dem Ziel gegeneinander antreten, mehr Tore als der Gegner zu erzielen und so das Spiel zu gewinnen.",
+            "sportTypeTranslationId": 11
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "male",
+      "contestantTranslations": []
+    },
+    {
+      "contestantId": 126,
+      "name": "Baloise Session",
+      "nameShort1": "",
+      "nameShort2": "BaS",
+      "description": "",
+      "status": true,
+      "logoURL": "https://m.baloisesession.ch/sites/default/files/logos-download_0.png",
+      "logoURL2": "",
+      "sportType": {
+        "sportTypeId": 25,
+        "name": "Festivals",
+        "description": "",
+        "category": {
+          "name": "Live Entertainment",
+          "description": "",
+          "status": true,
+          "categoryTranslations": [],
+          "categoryId": 16
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Festivals",
+            "description": "",
+            "sportTypeTranslationId": 24
+          }
+        ]
+      },
+      "country": "Switzerland",
+      "gender": "mixed",
+      "contestantTranslations": []
+    },
+    {
+      "contestantId": 116,
+      "name": "Basketball Löwen Braunschweig",
+      "nameShort1": "Lö. Braunschweig",
+      "nameShort2": "BRA",
+      "description": "",
+      "status": true,
+      "logoURL": "https://trade4sports.online/media/img/logos/Basketball%20Lo%cc%88wen%20Braunschweig.svg",
+      "logoURL2": "https://trade4sports.online/media/img/logos/Basketball%20Lo%cc%88wen%20Braunschweig.svg",
+      "sportType": {
+        "sportTypeId": 9,
+        "name": "Basketball",
+        "description": "Basketball is a team sport in which two teams, most commonly of five players each, opposing one another.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Basketball",
+            "description": "Basketball ist ein Mannschaftssport, bei dem sich zwei Mannschaften, meist mit je fünf Spielern, gegenüberstehen.",
+            "sportTypeTranslationId": 14
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "male",
+      "contestantTranslations": []
+    },
+    {
+      "contestantId": 19,
+      "name": "Bayer 04 Leverkusen",
+      "nameShort1": "Leverkusen",
+      "nameShort2": "B04",
+      "description": "",
+      "status": true,
+      "logoURL": "https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg",
+      "logoURL2": "",
+      "sportType": {
+        "sportTypeId": 5,
+        "name": "Football",
+        "description": "Football is a ball sport in which two teams compete against each other with the aim of scoring more goals than the opponent and thus winning the game.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Fußball",
+            "description": "Fußball ist eine Ballsportart, bei der zwei Mannschaften mit dem Ziel gegeneinander antreten, mehr Tore als der Gegner zu erzielen und so das Spiel zu gewinnen.",
+            "sportTypeTranslationId": 11
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "male",
+      "contestantTranslations": []
+    },
+    {
+      "contestantId": 78,
+      "name": "Bergischer HC",
+      "nameShort1": "Bergischer HC",
+      "nameShort2": "BHC",
+      "description": "",
+      "status": true,
+      "logoURL": "https://upload.wikimedia.org/wikipedia/fr/d/db/Bergischer_HC_logo.svg",
+      "logoURL2": "https://www.liquimoly-hbl.de/?proxy=redaktion/images/downloads/mannschaftsfotos/14_77469.jpg",
+      "sportType": {
+        "sportTypeId": 6,
+        "name": "Handball",
+        "description": "Handball is a sport in which two teams of seven players play against each other.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Handball",
+            "description": "Handball ist eine Sportart, bei der zwei Mannschaften mit je sieben Spielern gegeneinander spielen. ",
+            "sportTypeTranslationId": 12
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "male",
+      "contestantTranslations": []
+    },
+    {
+      "contestantId": 115,
+      "name": "BG Göttingen",
+      "nameShort1": "BG Göttingen ",
+      "nameShort2": "GÖT",
+      "description": "",
+      "status": true,
+      "logoURL": "https://trade4sports.online/media/img/logos/BG%20Go%cc%88ttingen.svg",
+      "logoURL2": "https://trade4sports.online/media/img/logos/BG%20Go%cc%88ttingen.svg",
+      "sportType": {
+        "sportTypeId": 9,
+        "name": "Basketball",
+        "description": "Basketball is a team sport in which two teams, most commonly of five players each, opposing one another.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Basketball",
+            "description": "Basketball ist ein Mannschaftssport, bei dem sich zwei Mannschaften, meist mit je fünf Spielern, gegenüberstehen.",
+            "sportTypeTranslationId": 14
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "male",
+      "contestantTranslations": [],
+      "lastModifiedDate": "2022-03-07T14:44:34.000+0000",
+      "lastModifiedBy": "vsivanathan@trade4sports.com"
+    },
+    {
+      "contestantId": 21,
+      "name": "Bor. Mönchengladbach",
+      "nameShort1": "Mönchengladbach",
+      "nameShort2": "BMG",
+      "description": "",
+      "status": true,
+      "logoURL": "https://upload.wikimedia.org/wikipedia/commons/8/81/Borussia_M%C3%B6nchengladbach_logo.svg",
+      "logoURL2": "https://www.borussia.de/typo3temp/GB/csm_Teamfoto_20-21_-_7d1e342ab6.jpg",
+      "sportType": {
+        "sportTypeId": 5,
+        "name": "Football",
+        "description": "Football is a ball sport in which two teams compete against each other with the aim of scoring more goals than the opponent and thus winning the game.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Fußball",
+            "description": "Fußball ist eine Ballsportart, bei der zwei Mannschaften mit dem Ziel gegeneinander antreten, mehr Tore als der Gegner zu erzielen und so das Spiel zu gewinnen.",
+            "sportTypeTranslationId": 11
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "male",
+      "contestantTranslations": []
+    },
+    {
+      "contestantId": 6,
+      "name": "Borussia Dortmund",
+      "nameShort1": "Dortmund",
+      "nameShort2": "BVB",
+      "description": "",
+      "status": true,
+      "logoURL": "https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg",
+      "logoURL2": "",
+      "sportType": {
+        "sportTypeId": 5,
+        "name": "Football",
+        "description": "Football is a ball sport in which two teams compete against each other with the aim of scoring more goals than the opponent and thus winning the game.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Fußball",
+            "description": "Fußball ist eine Ballsportart, bei der zwei Mannschaften mit dem Ziel gegeneinander antreten, mehr Tore als der Gegner zu erzielen und so das Spiel zu gewinnen.",
+            "sportTypeTranslationId": 11
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "male",
+      "contestantTranslations": []
+    },
+    {
+      "contestantId": 133,
+      "name": "Borussia Dortmund II",
+      "nameShort1": "Dortmund II",
+      "nameShort2": "BVB",
+      "description": "",
+      "status": true,
+      "logoURL": "https://media.graphcms.com/g1AYgM1TQdakYkeqh7Ep",
+      "logoURL2": "",
+      "sportType": {
+        "sportTypeId": 5,
+        "name": "Football",
+        "description": "Football is a ball sport in which two teams compete against each other with the aim of scoring more goals than the opponent and thus winning the game.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Fußball",
+            "description": "Fußball ist eine Ballsportart, bei der zwei Mannschaften mit dem Ziel gegeneinander antreten, mehr Tore als der Gegner zu erzielen und so das Spiel zu gewinnen.",
+            "sportTypeTranslationId": 11
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "male",
+      "contestantTranslations": []
+    },
+    {
+      "contestantId": 111,
+      "name": "Brose Bamberg",
+      "nameShort1": "Brose Bamberg",
+      "nameShort2": "BAM",
+      "description": "",
+      "status": true,
+      "logoURL": "https://trade4sports.online/media/img/logos/Brose%20Bamberg_pos_4c.svg",
+      "logoURL2": "https://trade4sports.online/media/img/logos/Brose%20Bamberg_pos_4c.svg",
+      "sportType": {
+        "sportTypeId": 9,
+        "name": "Basketball",
+        "description": "Basketball is a team sport in which two teams, most commonly of five players each, opposing one another.",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Basketball",
+            "description": "Basketball ist ein Mannschaftssport, bei dem sich zwei Mannschaften, meist mit je fünf Spielern, gegenüberstehen.",
+            "sportTypeTranslationId": 14
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "male",
+      "contestantTranslations": []
+    },
+    {
+      "contestantId": 127,
+      "name": "Classic Concerts",
+      "nameShort1": "",
+      "nameShort2": "CC",
+      "description": "",
+      "status": true,
+      "logoURL": "https://www.bach-cantatas.com/Pic-Bio-B-BIG/Beethoven-Orchester-Bonn-04[Barbara-Aumuller].jpg",
+      "logoURL2": "https://www.bach-cantatas.com/Pic-Bio-B-BIG/Beethoven-Orchester-Bonn-04[Barbara-Aumuller].jpg",
+      "sportType": {
+        "sportTypeId": 25,
+        "name": "Festivals",
+        "description": "",
+        "category": {
+          "name": "Live Entertainment",
+          "description": "",
+          "status": true,
+          "categoryTranslations": [],
+          "categoryId": 16
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Festivals",
+            "description": "",
+            "sportTypeTranslationId": 24
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "mixed",
+      "contestantTranslations": [
+        {
+          "language": {
+            "countryCode": "DE",
+            "name": "Deutsch",
+            "languageId": 2
+          },
+          "name": "Klassik-Konzertreihen",
+          "description": "",
+          "contestantTranslationId": 11
+        }
+      ]
+    },
+    {
+      "contestantId": 128,
+      "name": "Concerts Rock & Pop",
+      "nameShort1": "",
+      "nameShort2": "CRP",
+      "description": "",
+      "status": true,
+      "logoURL": "https://www.minsworld.de/wp-content/uploads/Sunrise_Avenue_11032016_LANXESSarena_Koeln_008.png",
+      "logoURL2": "",
+      "sportType": {
+        "sportTypeId": 25,
+        "name": "Festivals",
+        "description": "",
+        "category": {
+          "name": "Live Entertainment",
+          "description": "",
+          "status": true,
+          "categoryTranslations": [],
+          "categoryId": 16
+        },
+        "status": true,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Festivals",
+            "description": "",
+            "sportTypeTranslationId": 24
+          }
+        ]
+      },
+      "country": "Germany",
+      "gender": "mixed",
+      "contestantTranslations": [
+        {
+          "language": {
+            "countryCode": "DE",
+            "name": "Deutsch",
+            "languageId": 2
+          },
+          "name": "Konzerte Rock & Pop",
+          "description": "",
+          "contestantTranslationId": 12
+        }
+      ]
+    },
+    {
+      "contestantId": 3,
+      "name": "contestant 2",
+      "nameShort1": "contestant 2",
+      "nameShort2": "ct2",
+      "description": "contestant 2 desc",
+      "status": true,
+      "logoURL": "",
+      "logoURL2": "https://s.hs-data.com/bilder/teamfotos/640x360/234.jpg",
+      "sportType": {
+        "sportTypeId": 8,
+        "name": "Ski-jumping",
+        "description": "Ski jumping is a winter sport in which competitors aim to achieve the longest jump on their skis.",
+        "category": {
+          "name": "Winter sports",
+          "description": "Winter sports as ski jumping, biathlon, figure skating, etc.",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Wintersport",
+              "description": "Wintersportarten wie Skispringen, Biathlon, Eiskunstlauf, etc. ",
+              "categoryTranslationId": 17
+            }
+          ],
+          "categoryId": 8
+        },
+        "status": false,
+        "sportTypeTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Skispringen",
+            "description": "Skispringen ist ein Wintersport, bei der ein Sportler auf Skiern eine Skisprungschanze hinabgleitet.",
+            "sportTypeTranslationId": 13
+          }
+        ]
+      },
+      "country": "Bosnia and Herzegovina",
+      "gender": "female",
+      "contestantTranslations": [
+        {
+          "language": {
+            "countryCode": "DE",
+            "name": "Deutsch",
+            "languageId": 2
+          },
+          "name": "contestant 2",
+          "description": "contestant 2",
+          "contestantTranslationId": 1
+        }
+      ]
+    },
+    {
+      "contestantId": 138,
+      "name": "DAMEN/HERREN",
+      "nameShort1": "",
+      "nameShort2": "HOC",
+      "description": "HTC Uhlenhorst Mühlheim (m) \nTHC Rot-Weiss Köln (m)\nTHC Rot-Weiss Köln (f)\nMannheimer HC (f) \n\n ",
+      "status": true,
+      "logoURL": "https://media.graphcms.com/output=format:jpg/resize=width:59,height:59,fit:crop/SmzC8eSuS3KOXWhRyztE",
+      "logoURL2": "",
+      "sportType": {
+        "sportTypeId": 36,
+        "name": "Hockey",
+        "description": "",
+        "category": {
+          "name": "Ball sports",
+          "description": "Ball sports like football or basketball",
+          "status": true,
+          "categoryTranslations": [
+            {
+              "language": {
+                "countryCode": "ES",
+                "name": "Espanol",
+                "languageId": 4
+              },
+              "name": "Juegos de pelota ",
+              "description": "\nJuegos de pelota como fútbol o baloncesto",
+              "categoryTranslationId": 13
+            },
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Ballspiele",
+              "description": "Ballspiele wie Fußball oder Basketball",
+              "categoryTranslationId": 29
+            }
+          ],
+          "categoryId": 6
+        },
+        "status": true,
+        "sportTypeTranslations": [],
+        "lastModifiedDate": "2022-01-06T12:29:44.000+0000",
+        "lastModifiedBy": "nvbrauchitsch@trade4sports.com"
+      },
+      "country": "Germany",
+      "gender": "mixed",
+      "contestantTranslations": [],
+      "lastModifiedDate": "2022-01-06T15:06:01.000+0000",
+      "lastModifiedBy": "nvbrauchitsch@trade4sports.com"
+    }
+  ]
+}

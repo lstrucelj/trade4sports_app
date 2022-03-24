@@ -1,0 +1,1490 @@
+{
+  "totalPages": 1,
+  "totalElements": 19,
+  "eventSeries": [
+    {
+      "eventSeriesId": 38,
+      "name": "1. Bundesliga 2021/2022",
+      "status": true,
+      "generalEvent": {
+        "name": "1. Bundesliga",
+        "description": "The Bundesliga is a professional association football league in Germany and is Germany's primary football competition.",
+        "sportType": {
+          "name": "Football",
+          "description": "Football is a ball sport in which two teams compete against each other with the aim of scoring more goals than the opponent and thus winning the game.",
+          "category": {
+            "name": "Ball sports",
+            "description": "Ball sports like football or basketball",
+            "status": true,
+            "categoryTranslations": [
+              {
+                "language": {
+                  "countryCode": "ES",
+                  "name": "Espanol",
+                  "languageId": 4
+                },
+                "name": "Juegos de pelota ",
+                "description": "\nJuegos de pelota como fútbol o baloncesto",
+                "categoryTranslationId": 13
+              },
+              {
+                "language": {
+                  "countryCode": "DE",
+                  "name": "Deutsch",
+                  "languageId": 2
+                },
+                "name": "Ballspiele",
+                "description": "Ballspiele wie Fußball oder Basketball",
+                "categoryTranslationId": 29
+              }
+            ],
+            "categoryId": 6
+          },
+          "status": true,
+          "sportTypeTranslations": [
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Fußball",
+              "description": "Fußball ist eine Ballsportart, bei der zwei Mannschaften mit dem Ziel gegeneinander antreten, mehr Tore als der Gegner zu erzielen und so das Spiel zu gewinnen.",
+              "sportTypeTranslationId": 11
+            }
+          ],
+          "sportTypeId": 5
+        },
+        "status": true,
+        "generalEventTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "1. Bundesliga",
+            "description": "Die Fußball-Bundesliga ist die höchste Spielklasse im deutschen Fußball. ",
+            "generalEventTranslationnId": 9
+          }
+        ],
+        "generalEventId": 4
+      },
+      "startDate": "2021-08-13",
+      "endDate": "2022-05-23",
+      "logoURL": "https://trade4sports.online/media/img/logos/bundesliga-logo.svg",
+      "eventSeriesTranslations": [
+        {
+          "language": {
+            "countryCode": "DE",
+            "name": "Deutsch",
+            "languageId": 2
+          },
+          "name": "1. Bundesliga 2021/2022",
+          "description": "",
+          "eventSeriesTranslationId": 12
+        }
+      ],
+      "count": 34,
+      "country": [
+        "Germany"
+      ],
+      "lastModifiedDate": "2021-08-17T15:52:25.000+0000",
+      "lastModifiedBy": "fkomp@trade4sports.com"
+    },
+    {
+      "eventSeriesId": 39,
+      "name": "2. Bundesliga 2021/2022",
+      "status": true,
+      "generalEvent": {
+        "name": "2. Bundesliga",
+        "description": "The 2. Bundesliga is the second division of professional football in Germany.",
+        "sportType": {
+          "name": "Football",
+          "description": "Football is a ball sport in which two teams compete against each other with the aim of scoring more goals than the opponent and thus winning the game.",
+          "category": {
+            "name": "Ball sports",
+            "description": "Ball sports like football or basketball",
+            "status": true,
+            "categoryTranslations": [
+              {
+                "language": {
+                  "countryCode": "ES",
+                  "name": "Espanol",
+                  "languageId": 4
+                },
+                "name": "Juegos de pelota ",
+                "description": "\nJuegos de pelota como fútbol o baloncesto",
+                "categoryTranslationId": 13
+              },
+              {
+                "language": {
+                  "countryCode": "DE",
+                  "name": "Deutsch",
+                  "languageId": 2
+                },
+                "name": "Ballspiele",
+                "description": "Ballspiele wie Fußball oder Basketball",
+                "categoryTranslationId": 29
+              }
+            ],
+            "categoryId": 6
+          },
+          "status": true,
+          "sportTypeTranslations": [
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Fußball",
+              "description": "Fußball ist eine Ballsportart, bei der zwei Mannschaften mit dem Ziel gegeneinander antreten, mehr Tore als der Gegner zu erzielen und so das Spiel zu gewinnen.",
+              "sportTypeTranslationId": 11
+            }
+          ],
+          "sportTypeId": 5
+        },
+        "company": {
+          "name": "doyodu labs d.o.o.",
+          "websiteURL": "www.doyodu.com",
+          "email": "info@doyodu.com",
+          "status": true,
+          "address": {
+            "addressLine1": "Tešanjska 24/A",
+            "addressLine2": "",
+            "city": "Sarajevo",
+            "country": "Bosnia and Herzegovina",
+            "postalCode": "71000",
+            "phoneNumber": "0123456789",
+            "state": "",
+            "addressId": 1
+          },
+          "companyType": {
+            "companyTypeId": 1,
+            "name": "Company",
+            "description": "Generic Company"
+          },
+          "activeUsers": 5,
+          "discountList": [],
+          "companyId": 1
+        },
+        "status": true,
+        "generalEventTranslations": [],
+        "generalEventId": 7
+      },
+      "startDate": "2021-07-23",
+      "endDate": "2022-05-15",
+      "logoURL": "https://trade4sports.online/media/img/logos/2._Bundesliga_logo.svg",
+      "eventSeriesTranslations": [],
+      "count": 34,
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "eventSeriesId": 12,
+      "name": "2020 League of Legends World Championship",
+      "status": true,
+      "generalEvent": {
+        "name": "League of Legends World Championship",
+        "description": "The League of Legends World Championship is the annual professional League of Legends world championship tournament.",
+        "sportType": {
+          "name": "League of Legends",
+          "description": "League of Legends (LoL) is a multiplayer online battle arena video game developed and published by Riot Games.",
+          "category": {
+            "name": "Esports",
+            "description": "Esports (also known as electronic sports, e-sports, or eSports) is a form of sport competition using video games.",
+            "status": true,
+            "categoryTranslations": [
+              {
+                "language": {
+                  "countryCode": "DE",
+                  "name": "Deutsch",
+                  "languageId": 2
+                },
+                "name": "E-Sport",
+                "description": "E-Sport (auch als elektronische Sportarten, E-Sports oder eSports bekannt) ist eine Form des sportlichen Wettkampfs mit Videospielen.",
+                "categoryTranslationId": 38
+              }
+            ],
+            "categoryId": 13
+          },
+          "status": false,
+          "sportTypeTranslations": [
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "League of Legends",
+              "description": "League of Legends (LoL) ist ein Multiplayer-Online-Battle-Arena-Videospiel, das von Riot Games entwickelt und veröffentlicht wird.",
+              "sportTypeTranslationId": 16
+            }
+          ],
+          "sportTypeId": 15
+        },
+        "status": false,
+        "nameAtRightsHolder": "",
+        "idAtRightsHolder": "",
+        "generalEventTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "League of Legends-Weltmeisterschaft",
+            "description": "Die League of Legends-Weltmeisterschaft ist das jährliche professionelle League of Legends-Weltmeisterschaftsturnier.",
+            "generalEventTranslationnId": 21
+          }
+        ],
+        "generalEventId": 19
+      },
+      "startDate": "2020-01-01",
+      "endDate": "2020-01-01",
+      "logoURL": "https://gamepedia.cursecdn.com/lolesports_gamepedia_en/thumb/5/51/Worlds_2020.png/220px-Worlds_2020.png?version=2184aac3587665225c72a5ce0a6e0bcf",
+      "rightsHolder": {
+        "name": "doyodu GmbH",
+        "websiteURL": "www.doyodu.com",
+        "email": "info@doyodu.com",
+        "status": true,
+        "address": {
+          "addressId": 14,
+          "addressLine1": "Ritterstrasse 24-27",
+          "addressLine2": "c/o etventure",
+          "city": "Berlin",
+          "country": "Germany",
+          "postalCode": "10969",
+          "phoneNumber": "n/a",
+          "state": ""
+        },
+        "companyType": {
+          "companyTypeId": 1,
+          "name": "Company",
+          "description": "Generic Company"
+        },
+        "discountCount": 0,
+        "lastModifiedDate": "2021-09-01T10:10:48.000+0000",
+        "lastModifiedBy": "fkomp@trade4sports.com",
+        "companyId": 2
+      },
+      "eventSeriesTranslations": [],
+      "count": 0,
+      "country": []
+    },
+    {
+      "eventSeriesId": 40,
+      "name": "3. Liga 2021/2022",
+      "status": true,
+      "generalEvent": {
+        "name": "3. Liga",
+        "description": "The 3. Liga is a professional association football league and the third division in Germany.",
+        "sportType": {
+          "name": "Football",
+          "description": "Football is a ball sport in which two teams compete against each other with the aim of scoring more goals than the opponent and thus winning the game.",
+          "category": {
+            "name": "Ball sports",
+            "description": "Ball sports like football or basketball",
+            "status": true,
+            "categoryTranslations": [
+              {
+                "language": {
+                  "countryCode": "ES",
+                  "name": "Espanol",
+                  "languageId": 4
+                },
+                "name": "Juegos de pelota ",
+                "description": "\nJuegos de pelota como fútbol o baloncesto",
+                "categoryTranslationId": 13
+              },
+              {
+                "language": {
+                  "countryCode": "DE",
+                  "name": "Deutsch",
+                  "languageId": 2
+                },
+                "name": "Ballspiele",
+                "description": "Ballspiele wie Fußball oder Basketball",
+                "categoryTranslationId": 29
+              }
+            ],
+            "categoryId": 6
+          },
+          "status": true,
+          "sportTypeTranslations": [
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Fußball",
+              "description": "Fußball ist eine Ballsportart, bei der zwei Mannschaften mit dem Ziel gegeneinander antreten, mehr Tore als der Gegner zu erzielen und so das Spiel zu gewinnen.",
+              "sportTypeTranslationId": 11
+            }
+          ],
+          "sportTypeId": 5
+        },
+        "status": true,
+        "nameAtRightsHolder": "",
+        "idAtRightsHolder": "",
+        "generalEventTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "3. Liga",
+            "description": "Die 3. Liga ist die dritthöchste Spielklasse im Meisterschaftssystem des deutschen Vereinsfußballs.",
+            "generalEventTranslationnId": 13
+          }
+        ],
+        "generalEventId": 25
+      },
+      "startDate": "2021-07-23",
+      "endDate": "2022-05-14",
+      "logoURL": "https://upload.wikimedia.org/wikipedia/en/b/bc/3._Liga_logo_%282019%29.svg",
+      "eventSeriesTranslations": [],
+      "count": 38,
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "eventSeriesId": 33,
+      "name": "Baloise Session 2021",
+      "status": true,
+      "generalEvent": {
+        "name": "Baloise Session",
+        "description": "",
+        "sportType": {
+          "name": "Festivals",
+          "description": "",
+          "category": {
+            "name": "Live Entertainment",
+            "description": "",
+            "status": true,
+            "categoryTranslations": [],
+            "categoryId": 16
+          },
+          "status": true,
+          "sportTypeTranslations": [
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Festivals",
+              "description": "",
+              "sportTypeTranslationId": 24
+            }
+          ],
+          "sportTypeId": 25
+        },
+        "status": true,
+        "nameAtRightsHolder": "",
+        "idAtRightsHolder": "",
+        "generalEventTranslations": [],
+        "generalEventId": 41
+      },
+      "startDate": "2020-01-01",
+      "endDate": "2020-12-31",
+      "logoURL": "",
+      "eventSeriesTranslations": [],
+      "count": 1,
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "eventSeriesId": 34,
+      "name": "Classic Concerts",
+      "status": true,
+      "generalEvent": {
+        "name": "Classic Concerts",
+        "description": "",
+        "sportType": {
+          "name": "Festivals",
+          "description": "",
+          "category": {
+            "name": "Live Entertainment",
+            "description": "",
+            "status": true,
+            "categoryTranslations": [],
+            "categoryId": 16
+          },
+          "status": true,
+          "sportTypeTranslations": [
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Festivals",
+              "description": "",
+              "sportTypeTranslationId": 24
+            }
+          ],
+          "sportTypeId": 25
+        },
+        "status": true,
+        "nameAtRightsHolder": "",
+        "idAtRightsHolder": "",
+        "generalEventTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Klassik-Konzertreihen",
+            "description": "",
+            "generalEventTranslationnId": 26
+          }
+        ],
+        "generalEventId": 42
+      },
+      "startDate": "2020-01-01",
+      "endDate": "2020-01-01",
+      "logoURL": "",
+      "eventSeriesTranslations": [
+        {
+          "language": {
+            "countryCode": "DE",
+            "name": "Deutsch",
+            "languageId": 2
+          },
+          "name": "Klassik-Konzertreihen",
+          "description": "",
+          "eventSeriesTranslationId": 9
+        }
+      ],
+      "count": 1,
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "eventSeriesId": 35,
+      "name": "Concerts Pop&Rock",
+      "status": true,
+      "generalEvent": {
+        "name": "Concerts Rock&Pop",
+        "description": "",
+        "sportType": {
+          "name": "Festivals",
+          "description": "",
+          "category": {
+            "name": "Live Entertainment",
+            "description": "",
+            "status": true,
+            "categoryTranslations": [],
+            "categoryId": 16
+          },
+          "status": true,
+          "sportTypeTranslations": [
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Festivals",
+              "description": "",
+              "sportTypeTranslationId": 24
+            }
+          ],
+          "sportTypeId": 25
+        },
+        "status": true,
+        "nameAtRightsHolder": "",
+        "idAtRightsHolder": "",
+        "generalEventTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Konzerte Pop&Rock",
+            "description": "",
+            "generalEventTranslationnId": 27
+          }
+        ],
+        "generalEventId": 43
+      },
+      "startDate": "2020-01-01",
+      "endDate": "2020-01-01",
+      "logoURL": "",
+      "eventSeriesTranslations": [
+        {
+          "language": {
+            "countryCode": "DE",
+            "name": "Deutsch",
+            "languageId": 2
+          },
+          "name": "Konzerte Pop&Rock",
+          "description": "",
+          "eventSeriesTranslationId": 10
+        }
+      ],
+      "count": 1,
+      "country": [
+        "Germany"
+      ],
+      "lastModifiedDate": "2021-10-14T14:10:28.000+0000",
+      "lastModifiedBy": "dr@gokumail.net"
+    },
+    {
+      "eventSeriesId": 42,
+      "name": "easyCredit BBL 2021/2022",
+      "status": true,
+      "generalEvent": {
+        "name": "easyCredit BBL",
+        "description": "The Basketball Bundesliga (BBL), official sponsor name since 2016 easyCredit Basketball Bundesliga (easyCredit BBL), is the highest division in German men's basketball. ",
+        "sportType": {
+          "name": "Basketball",
+          "description": "Basketball is a team sport in which two teams, most commonly of five players each, opposing one another.",
+          "category": {
+            "name": "Ball sports",
+            "description": "Ball sports like football or basketball",
+            "status": true,
+            "categoryTranslations": [
+              {
+                "language": {
+                  "countryCode": "ES",
+                  "name": "Espanol",
+                  "languageId": 4
+                },
+                "name": "Juegos de pelota ",
+                "description": "\nJuegos de pelota como fútbol o baloncesto",
+                "categoryTranslationId": 13
+              },
+              {
+                "language": {
+                  "countryCode": "DE",
+                  "name": "Deutsch",
+                  "languageId": 2
+                },
+                "name": "Ballspiele",
+                "description": "Ballspiele wie Fußball oder Basketball",
+                "categoryTranslationId": 29
+              }
+            ],
+            "categoryId": 6
+          },
+          "status": true,
+          "sportTypeTranslations": [
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Basketball",
+              "description": "Basketball ist ein Mannschaftssport, bei dem sich zwei Mannschaften, meist mit je fünf Spielern, gegenüberstehen.",
+              "sportTypeTranslationId": 14
+            }
+          ],
+          "sportTypeId": 9
+        },
+        "status": true,
+        "nameAtRightsHolder": "",
+        "idAtRightsHolder": "",
+        "generalEventTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "easyCredit BBL",
+            "description": "Die Basketball-Bundesliga (BBL), offizielle Sponsorenbezeichnung seit 2016 easyCredit Basketball Bundesliga (easyCredit BBL), ist die höchste Spielklasse im deutschen Basketball der Männer. ",
+            "generalEventTranslationnId": 17
+          }
+        ],
+        "generalEventId": 31
+      },
+      "startDate": "2021-09-23",
+      "endDate": "2021-05-01",
+      "logoURL": "https://trade4sports.online/media/img/logos/easycredit-bbl_logo_hoch.png",
+      "eventSeriesTranslations": [],
+      "count": 34,
+      "country": [
+        "Germany"
+      ],
+      "lastModifiedDate": "2021-09-16T10:57:38.000+0000",
+      "lastModifiedBy": "dr@gokumail.net"
+    },
+    {
+      "eventSeriesId": 30,
+      "name": "ESL Meisterschaft 2021",
+      "status": true,
+      "generalEvent": {
+        "name": "ESL Meisterschaft Session II 2021",
+        "description": "",
+        "sportType": {
+          "name": "Esports",
+          "description": "",
+          "category": {
+            "name": "Esports",
+            "description": "Esports (also known as electronic sports, e-sports, or eSports) is a form of sport competition using video games.",
+            "status": true,
+            "categoryTranslations": [
+              {
+                "language": {
+                  "countryCode": "DE",
+                  "name": "Deutsch",
+                  "languageId": 2
+                },
+                "name": "E-Sport",
+                "description": "E-Sport (auch als elektronische Sportarten, E-Sports oder eSports bekannt) ist eine Form des sportlichen Wettkampfs mit Videospielen.",
+                "categoryTranslationId": 38
+              }
+            ],
+            "categoryId": 13
+          },
+          "status": true,
+          "sportTypeTranslations": [
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "E-Sport",
+              "description": "",
+              "sportTypeTranslationId": 19
+            }
+          ],
+          "sportTypeId": 27
+        },
+        "company": {
+          "name": "ESL Gaming GmbH",
+          "websiteURL": "https://www.eslgaming.com/",
+          "email": "",
+          "status": true,
+          "address": {
+            "addressLine1": "Schanzenstrasse 23",
+            "addressLine2": "",
+            "city": "Köln",
+            "country": "Germany",
+            "postalCode": "51063",
+            "phoneNumber": "",
+            "state": "",
+            "addressId": 492
+          },
+          "companyType": {
+            "companyTypeId": 3,
+            "name": "Rightsholder",
+            "description": "Company that holds the rights of an advertising relevant subject"
+          },
+          "activeUsers": 1,
+          "discountList": [],
+          "companyId": 110
+        },
+        "status": true,
+        "nameAtRightsHolder": "",
+        "idAtRightsHolder": "",
+        "generalEventTranslations": [],
+        "generalEventId": 38
+      },
+      "startDate": "2021-04-06",
+      "endDate": "2021-05-23",
+      "logoURL": "https://cdn.eslgaming.com/misc/media/germany/ESLMLogo.png",
+      "rightsHolder": {
+        "name": "ESL Gaming GmbH",
+        "websiteURL": "https://www.eslgaming.com/",
+        "email": "",
+        "status": true,
+        "address": {
+          "addressId": 492,
+          "addressLine1": "Schanzenstrasse 23",
+          "addressLine2": "",
+          "city": "Köln",
+          "country": "Germany",
+          "postalCode": "51063",
+          "phoneNumber": "",
+          "state": ""
+        },
+        "companyType": {
+          "companyTypeId": 3,
+          "name": "Rightsholder",
+          "description": "Company that holds the rights of an advertising relevant subject"
+        },
+        "discountCount": 0,
+        "lastModifiedDate": "2021-08-03T08:39:49.000+0000",
+        "lastModifiedBy": "nvbrauchitsch@trade4sports.com",
+        "companyId": 110
+      },
+      "eventSeriesTranslations": [],
+      "count": 1,
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "eventSeriesId": 37,
+      "name": "ESL One Cologne 2021",
+      "status": true,
+      "generalEvent": {
+        "name": "ESL One Cologne",
+        "description": "",
+        "sportType": {
+          "name": "Esports",
+          "description": "",
+          "category": {
+            "name": "Esports",
+            "description": "Esports (also known as electronic sports, e-sports, or eSports) is a form of sport competition using video games.",
+            "status": true,
+            "categoryTranslations": [
+              {
+                "language": {
+                  "countryCode": "DE",
+                  "name": "Deutsch",
+                  "languageId": 2
+                },
+                "name": "E-Sport",
+                "description": "E-Sport (auch als elektronische Sportarten, E-Sports oder eSports bekannt) ist eine Form des sportlichen Wettkampfs mit Videospielen.",
+                "categoryTranslationId": 38
+              }
+            ],
+            "categoryId": 13
+          },
+          "status": true,
+          "sportTypeTranslations": [
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "E-Sport",
+              "description": "",
+              "sportTypeTranslationId": 19
+            }
+          ],
+          "sportTypeId": 27
+        },
+        "status": true,
+        "nameAtRightsHolder": "",
+        "idAtRightsHolder": "",
+        "generalEventTranslations": [],
+        "generalEventId": 44
+      },
+      "startDate": "2021-03-30",
+      "endDate": "2021-05-04",
+      "logoURL": "",
+      "eventSeriesTranslations": [],
+      "count": 1,
+      "country": [
+        "Germany"
+      ],
+      "lastModifiedDate": "2021-07-13T12:05:31.000+0000",
+      "lastModifiedBy": "amer.surkovic@gmail.com"
+    },
+    {
+      "eventSeriesId": 36,
+      "name": "Four Hills Tournament 2021/2022",
+      "status": true,
+      "generalEvent": {
+        "name": "Four Hills Tournament",
+        "description": "The Four Hills Tournament or the German-Austrian Ski Jumping Week is a ski jumping event composed of four World Cup events and has taken place in Germany and Austria each year since 1953.",
+        "sportType": {
+          "name": "Ski-jumping",
+          "description": "Ski jumping is a winter sport in which competitors aim to achieve the longest jump on their skis.",
+          "category": {
+            "name": "Winter sports",
+            "description": "Winter sports as ski jumping, biathlon, figure skating, etc.",
+            "status": true,
+            "categoryTranslations": [
+              {
+                "language": {
+                  "countryCode": "DE",
+                  "name": "Deutsch",
+                  "languageId": 2
+                },
+                "name": "Wintersport",
+                "description": "Wintersportarten wie Skispringen, Biathlon, Eiskunstlauf, etc. ",
+                "categoryTranslationId": 17
+              }
+            ],
+            "categoryId": 8
+          },
+          "status": false,
+          "sportTypeTranslations": [
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Skispringen",
+              "description": "Skispringen ist ein Wintersport, bei der ein Sportler auf Skiern eine Skisprungschanze hinabgleitet.",
+              "sportTypeTranslationId": 13
+            }
+          ],
+          "sportTypeId": 8
+        },
+        "company": {
+          "name": "doyodu labs d.o.o.",
+          "websiteURL": "www.doyodu.com",
+          "email": "info@doyodu.com",
+          "status": true,
+          "address": {
+            "addressLine1": "Tešanjska 24/A",
+            "addressLine2": "",
+            "city": "Sarajevo",
+            "country": "Bosnia and Herzegovina",
+            "postalCode": "71000",
+            "phoneNumber": "0123456789",
+            "state": "",
+            "addressId": 1
+          },
+          "companyType": {
+            "companyTypeId": 1,
+            "name": "Company",
+            "description": "Generic Company"
+          },
+          "activeUsers": 5,
+          "discountList": [],
+          "companyId": 1
+        },
+        "status": false,
+        "nameAtRightsHolder": "",
+        "idAtRightsHolder": "",
+        "generalEventTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Vierschanzentournee",
+            "description": "Die Vierschanzentournee bzw. die Deutsch-Österreichische Skisprungwoche ist ein Skispringen, das sich aus vier Weltcup-Veranstaltungen zusammensetzt und seit 1953 jährlich in Deutschland und Österreich ausgetragen wird.",
+            "generalEventTranslationnId": 18
+          }
+        ],
+        "generalEventId": 20
+      },
+      "startDate": "2021-11-01",
+      "endDate": "2020-03-31",
+      "logoURL": "",
+      "eventSeriesTranslations": [],
+      "count": 1,
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "eventSeriesId": 29,
+      "name": "Grammy Awards 2021",
+      "status": true,
+      "generalEvent": {
+        "name": "Grammy Awards",
+        "description": "Die GRAMMY Awards sind die wichtigste und höchste internationale Auszeichnung für\nKünstler und Aufnahmeteams. Er ist von der Bedeutung vergleichbar mit dem Oscar in der\nFilmindustrie.",
+        "sportType": {
+          "name": "Festivals",
+          "description": "",
+          "category": {
+            "name": "Live Entertainment",
+            "description": "",
+            "status": true,
+            "categoryTranslations": [],
+            "categoryId": 16
+          },
+          "status": true,
+          "sportTypeTranslations": [
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Festivals",
+              "description": "",
+              "sportTypeTranslationId": 24
+            }
+          ],
+          "sportTypeId": 25
+        },
+        "company": {
+          "name": "LIVE NATION BRAND PARTNERSHIP & MEDIA GMBH",
+          "websiteURL": "www.livenationsponsorship.com",
+          "email": "Oliver.Bresch@LiveNation.de",
+          "status": true,
+          "address": {
+            "addressLine1": "Köhlbrandtreppe 2",
+            "addressLine2": "",
+            "city": "Hamburg",
+            "country": "Germany",
+            "postalCode": "22767",
+            "phoneNumber": "",
+            "state": "",
+            "addressId": 564
+          },
+          "companyType": {
+            "companyTypeId": 3,
+            "name": "Rightsholder",
+            "description": "Company that holds the rights of an advertising relevant subject"
+          },
+          "activeUsers": 0,
+          "discountList": [],
+          "companyId": 132
+        },
+        "status": true,
+        "nameAtRightsHolder": "",
+        "idAtRightsHolder": "",
+        "generalEventTranslations": [],
+        "generalEventId": 37
+      },
+      "startDate": "2021-03-15",
+      "endDate": "2021-03-15",
+      "logoURL": "https://im-media.voltron.voanews.com/Drupal/01live-166/styles/710x340/s3/2019-04/7463B72C-BCA8-49B1-A4AD-732CF92D75C7.jpg?itok=Bg0WBJi3",
+      "eventSeriesTranslations": [],
+      "count": 1,
+      "country": [
+        "United States of America"
+      ]
+    },
+    {
+      "eventSeriesId": 46,
+      "name": "Hockey Bundesliga 2021/2022",
+      "status": true,
+      "generalEvent": {
+        "name": "Hockey Bundesliga",
+        "description": "",
+        "sportType": {
+          "name": "Hockey",
+          "description": "",
+          "category": {
+            "name": "Ball sports",
+            "description": "Ball sports like football or basketball",
+            "status": true,
+            "categoryTranslations": [
+              {
+                "language": {
+                  "countryCode": "ES",
+                  "name": "Espanol",
+                  "languageId": 4
+                },
+                "name": "Juegos de pelota ",
+                "description": "\nJuegos de pelota como fútbol o baloncesto",
+                "categoryTranslationId": 13
+              },
+              {
+                "language": {
+                  "countryCode": "DE",
+                  "name": "Deutsch",
+                  "languageId": 2
+                },
+                "name": "Ballspiele",
+                "description": "Ballspiele wie Fußball oder Basketball",
+                "categoryTranslationId": 29
+              }
+            ],
+            "categoryId": 6
+          },
+          "status": true,
+          "sportTypeTranslations": [],
+          "sportTypeId": 36
+        },
+        "status": true,
+        "nameAtRightsHolder": "",
+        "idAtRightsHolder": "",
+        "generalEventTranslations": [],
+        "generalEventId": 46
+      },
+      "startDate": "2022-01-29",
+      "endDate": "2022-01-30",
+      "logoURL": "",
+      "eventSeriesTranslations": [],
+      "count": 1,
+      "country": [
+        "Germany"
+      ],
+      "lastModifiedDate": "2022-01-07T11:08:12.000+0000",
+      "lastModifiedBy": "psommer@trade4sports.net"
+    },
+    {
+      "eventSeriesId": 22,
+      "name": "Intel® Extreme Masters New York 2020",
+      "status": true,
+      "generalEvent": {
+        "name": "Intel® Extreme Masters",
+        "description": "Intel® Extreme Masters is the longest running global pro gaming tour in the world. Started in 2006 by ESL, the competition features Counter-Strike: Global Offensive, StarCraft II and League of Legends tournaments across multiple continents.",
+        "sportType": {
+          "name": "Counter-Strike: Global Offensive",
+          "description": "Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter video game. The game pits two teams against each other: the Terrorists and the Counter-Terrorists. Both sides are tasked with eliminating the other while also completing tasks.",
+          "category": {
+            "name": "Esports",
+            "description": "Esports (also known as electronic sports, e-sports, or eSports) is a form of sport competition using video games.",
+            "status": true,
+            "categoryTranslations": [
+              {
+                "language": {
+                  "countryCode": "DE",
+                  "name": "Deutsch",
+                  "languageId": 2
+                },
+                "name": "E-Sport",
+                "description": "E-Sport (auch als elektronische Sportarten, E-Sports oder eSports bekannt) ist eine Form des sportlichen Wettkampfs mit Videospielen.",
+                "categoryTranslationId": 38
+              }
+            ],
+            "categoryId": 13
+          },
+          "status": false,
+          "sportTypeTranslations": [
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Counter-Strike: Global Offensive",
+              "description": "Counter-Strike: Global Offensive (CS:GO) ist ein Multiplayer-Ego-Shooter-Videospiel. Im Spiel treten zwei Teams gegeneinander an: die Terroristen und die Counter-Terroristen. Beide Seiten haben die Aufgabe, die jeweils andere Seite zu eliminieren und glei",
+              "sportTypeTranslationId": 15
+            }
+          ],
+          "sportTypeId": 23
+        },
+        "status": false,
+        "nameAtRightsHolder": "",
+        "idAtRightsHolder": "",
+        "generalEventTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Intel® Extreme Masters",
+            "description": "Intel® Extreme Masters ist die am längsten laufende globale Pro-Gaming-Tour der Welt. Der Wettbewerb wurde 2006 von der ESL ins Leben gerufen und umfasst Counter-Strike: Global Offensive, StarCraft II und League of Legends Turniere.",
+            "generalEventTranslationnId": 20
+          }
+        ],
+        "generalEventId": 30
+      },
+      "startDate": "2020-12-05",
+      "endDate": "2020-12-17",
+      "logoURL": "https://www.intelextrememasters.com/wp-content/uploads/2019/02/iemlogo2019_small.png",
+      "eventSeriesTranslations": [],
+      "count": 1,
+      "country": [
+        "United States of America"
+      ]
+    },
+    {
+      "eventSeriesId": 41,
+      "name": "Liqui Moly Handball-Bundesliga 2021/2022",
+      "status": true,
+      "generalEvent": {
+        "name": "Handball-Bundesliga",
+        "description": "The Handball-Bundesliga (HBL) is the top German professional handball league.",
+        "sportType": {
+          "name": "Handball",
+          "description": "Handball is a sport in which two teams of seven players play against each other.",
+          "category": {
+            "name": "Ball sports",
+            "description": "Ball sports like football or basketball",
+            "status": true,
+            "categoryTranslations": [
+              {
+                "language": {
+                  "countryCode": "ES",
+                  "name": "Espanol",
+                  "languageId": 4
+                },
+                "name": "Juegos de pelota ",
+                "description": "\nJuegos de pelota como fútbol o baloncesto",
+                "categoryTranslationId": 13
+              },
+              {
+                "language": {
+                  "countryCode": "DE",
+                  "name": "Deutsch",
+                  "languageId": 2
+                },
+                "name": "Ballspiele",
+                "description": "Ballspiele wie Fußball oder Basketball",
+                "categoryTranslationId": 29
+              }
+            ],
+            "categoryId": 6
+          },
+          "status": true,
+          "sportTypeTranslations": [
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Handball",
+              "description": "Handball ist eine Sportart, bei der zwei Mannschaften mit je sieben Spielern gegeneinander spielen. ",
+              "sportTypeTranslationId": 12
+            }
+          ],
+          "sportTypeId": 6
+        },
+        "status": true,
+        "nameAtRightsHolder": "",
+        "idAtRightsHolder": "",
+        "generalEventTranslations": [
+          {
+            "language": {
+              "countryCode": "DE",
+              "name": "Deutsch",
+              "languageId": 2
+            },
+            "name": "Handball-Bundesliga",
+            "description": "Die Handball-Bundesliga (HBL) ist die höchste deutsche Profi-Handball-Liga.",
+            "generalEventTranslationnId": 19
+          }
+        ],
+        "generalEventId": 22
+      },
+      "startDate": "2020-01-01",
+      "endDate": "2020-01-01",
+      "logoURL": "https://trade4sports.online/media/img/logos/HBL_Logo_Hoch.svg",
+      "eventSeriesTranslations": [],
+      "count": 34,
+      "country": [
+        "Germany"
+      ],
+      "lastModifiedDate": "2021-08-24T10:04:30.000+0000",
+      "lastModifiedBy": "justus-fluechter@outlook.de"
+    },
+    {
+      "eventSeriesId": 45,
+      "name": "MEN´S EHF EURO 2022 ",
+      "status": true,
+      "generalEvent": {
+        "name": "MEN´S EHF EURO",
+        "description": "",
+        "sportType": {
+          "name": "Handball",
+          "description": "Handball is a sport in which two teams of seven players play against each other.",
+          "category": {
+            "name": "Ball sports",
+            "description": "Ball sports like football or basketball",
+            "status": true,
+            "categoryTranslations": [
+              {
+                "language": {
+                  "countryCode": "ES",
+                  "name": "Espanol",
+                  "languageId": 4
+                },
+                "name": "Juegos de pelota ",
+                "description": "\nJuegos de pelota como fútbol o baloncesto",
+                "categoryTranslationId": 13
+              },
+              {
+                "language": {
+                  "countryCode": "DE",
+                  "name": "Deutsch",
+                  "languageId": 2
+                },
+                "name": "Ballspiele",
+                "description": "Ballspiele wie Fußball oder Basketball",
+                "categoryTranslationId": 29
+              }
+            ],
+            "categoryId": 6
+          },
+          "status": true,
+          "sportTypeTranslations": [
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Handball",
+              "description": "Handball ist eine Sportart, bei der zwei Mannschaften mit je sieben Spielern gegeneinander spielen. ",
+              "sportTypeTranslationId": 12
+            }
+          ],
+          "sportTypeId": 6
+        },
+        "company": {
+          "name": "Infront Germany GmbH",
+          "websiteURL": "https://www.infront.sport/de",
+          "email": "",
+          "status": true,
+          "address": {
+            "addressLine1": "",
+            "addressLine2": "Rotfeder-Ring 7",
+            "city": "Frankfurt am Main",
+            "country": "Germany",
+            "postalCode": "60327",
+            "phoneNumber": "",
+            "state": "",
+            "addressId": 416
+          },
+          "companyType": {
+            "companyTypeId": 3,
+            "name": "Rightsholder",
+            "description": "Company that holds the rights of an advertising relevant subject"
+          },
+          "activeUsers": 1,
+          "discountList": [],
+          "companyId": 94
+        },
+        "status": true,
+        "nameAtRightsHolder": "",
+        "idAtRightsHolder": "",
+        "generalEventTranslations": [],
+        "generalEventId": 45
+      },
+      "startDate": "2022-01-13",
+      "endDate": "2022-01-30",
+      "logoURL": "",
+      "rightsHolder": {
+        "name": "Infront Germany GmbH",
+        "websiteURL": "https://www.infront.sport/de",
+        "email": "",
+        "status": true,
+        "address": {
+          "addressId": 416,
+          "addressLine1": "",
+          "addressLine2": "Rotfeder-Ring 7",
+          "city": "Frankfurt am Main",
+          "country": "Germany",
+          "postalCode": "60327",
+          "phoneNumber": "",
+          "state": ""
+        },
+        "companyType": {
+          "companyTypeId": 3,
+          "name": "Rightsholder",
+          "description": "Company that holds the rights of an advertising relevant subject"
+        },
+        "discountCount": 0,
+        "companyId": 94
+      },
+      "eventSeriesTranslations": [],
+      "count": 1,
+      "country": [
+        "Hungary"
+      ],
+      "lastModifiedDate": "2021-12-21T11:51:29.000+0000",
+      "lastModifiedBy": "psommer@trade4sports.net"
+    },
+    {
+      "eventSeriesId": 27,
+      "name": "Rock am Ring 2021",
+      "status": true,
+      "generalEvent": {
+        "name": "Rock am Ring",
+        "description": "",
+        "sportType": {
+          "name": "Festivals",
+          "description": "",
+          "category": {
+            "name": "Live Entertainment",
+            "description": "",
+            "status": true,
+            "categoryTranslations": [],
+            "categoryId": 16
+          },
+          "status": true,
+          "sportTypeTranslations": [
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Festivals",
+              "description": "",
+              "sportTypeTranslationId": 24
+            }
+          ],
+          "sportTypeId": 25
+        },
+        "company": {
+          "name": "eventimpresents GmbH & Co. KG",
+          "websiteURL": "www.rock-am-ring.com",
+          "email": "",
+          "status": true,
+          "address": {
+            "addressLine1": "TaunusTurm, TaunusTor 1",
+            "addressLine2": "",
+            "city": "Frankfurt",
+            "country": "Germany",
+            "postalCode": "60310",
+            "phoneNumber": "",
+            "state": "",
+            "addressId": 540
+          },
+          "companyType": {
+            "companyTypeId": 3,
+            "name": "Rightsholder",
+            "description": "Company that holds the rights of an advertising relevant subject"
+          },
+          "activeUsers": 0,
+          "discountList": [],
+          "companyId": 128
+        },
+        "status": true,
+        "nameAtRightsHolder": "",
+        "idAtRightsHolder": "",
+        "generalEventTranslations": [],
+        "generalEventId": 35
+      },
+      "startDate": "2021-06-11",
+      "endDate": "2021-06-13",
+      "logoURL": "",
+      "eventSeriesTranslations": [],
+      "count": 1,
+      "country": [
+        "Germany"
+      ]
+    },
+    {
+      "eventSeriesId": 44,
+      "name": "test",
+      "status": true,
+      "generalEvent": {
+        "name": "2. Bundesliga",
+        "description": "The 2. Bundesliga is the second division of professional football in Germany.",
+        "sportType": {
+          "name": "Football",
+          "description": "Football is a ball sport in which two teams compete against each other with the aim of scoring more goals than the opponent and thus winning the game.",
+          "category": {
+            "name": "Ball sports",
+            "description": "Ball sports like football or basketball",
+            "status": true,
+            "categoryTranslations": [
+              {
+                "language": {
+                  "countryCode": "ES",
+                  "name": "Espanol",
+                  "languageId": 4
+                },
+                "name": "Juegos de pelota ",
+                "description": "\nJuegos de pelota como fútbol o baloncesto",
+                "categoryTranslationId": 13
+              },
+              {
+                "language": {
+                  "countryCode": "DE",
+                  "name": "Deutsch",
+                  "languageId": 2
+                },
+                "name": "Ballspiele",
+                "description": "Ballspiele wie Fußball oder Basketball",
+                "categoryTranslationId": 29
+              }
+            ],
+            "categoryId": 6
+          },
+          "status": true,
+          "sportTypeTranslations": [
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Fußball",
+              "description": "Fußball ist eine Ballsportart, bei der zwei Mannschaften mit dem Ziel gegeneinander antreten, mehr Tore als der Gegner zu erzielen und so das Spiel zu gewinnen.",
+              "sportTypeTranslationId": 11
+            }
+          ],
+          "sportTypeId": 5
+        },
+        "company": {
+          "name": "doyodu labs d.o.o.",
+          "websiteURL": "www.doyodu.com",
+          "email": "info@doyodu.com",
+          "status": true,
+          "address": {
+            "addressLine1": "Tešanjska 24/A",
+            "addressLine2": "",
+            "city": "Sarajevo",
+            "country": "Bosnia and Herzegovina",
+            "postalCode": "71000",
+            "phoneNumber": "0123456789",
+            "state": "",
+            "addressId": 1
+          },
+          "companyType": {
+            "companyTypeId": 1,
+            "name": "Company",
+            "description": "Generic Company"
+          },
+          "activeUsers": 5,
+          "discountList": [],
+          "companyId": 1
+        },
+        "status": true,
+        "generalEventTranslations": [],
+        "generalEventId": 7
+      },
+      "startDate": "2020-01-01",
+      "endDate": "2020-01-01",
+      "logoURL": "https://media.graphcms.com/IN5G3BwQvavJKoTIqOQd",
+      "eventSeriesTranslations": [],
+      "count": 0,
+      "country": [],
+      "lastModifiedDate": "2021-10-13T19:51:44.000+0000",
+      "lastModifiedBy": "karlojerry@gmail.com"
+    },
+    {
+      "eventSeriesId": 32,
+      "name": "Wacken 2020",
+      "status": true,
+      "generalEvent": {
+        "name": "Wacken",
+        "description": "",
+        "sportType": {
+          "name": "Festivals",
+          "description": "",
+          "category": {
+            "name": "Live Entertainment",
+            "description": "",
+            "status": true,
+            "categoryTranslations": [],
+            "categoryId": 16
+          },
+          "status": true,
+          "sportTypeTranslations": [
+            {
+              "language": {
+                "countryCode": "DE",
+                "name": "Deutsch",
+                "languageId": 2
+              },
+              "name": "Festivals",
+              "description": "",
+              "sportTypeTranslationId": 24
+            }
+          ],
+          "sportTypeId": 25
+        },
+        "status": true,
+        "nameAtRightsHolder": "",
+        "idAtRightsHolder": "",
+        "generalEventTranslations": [],
+        "generalEventId": 40
+      },
+      "startDate": "2020-07-30",
+      "endDate": "2020-08-01",
+      "logoURL": "",
+      "eventSeriesTranslations": [],
+      "count": 1,
+      "country": [
+        "Germany"
+      ]
+    }
+  ]
+}
