@@ -6,7 +6,7 @@ import logo from '../assets/logo.png'
 import { columns } from './config'
 import events from '../data/events.json'
 
-const useStyles = makeStyles(() => ({
+const useStyles = makeStyles((theme) => ({
     toolbar: {
         backgroundColor: '#e7eef1',
         height: '64px'
@@ -16,7 +16,12 @@ const useStyles = makeStyles(() => ({
     },
     tableContainer: {
         maxWidth: '100%'
-    }
+    },
+    typography: {
+        textAlign: '-webkit-center',
+        textTransform: 'uppercase',
+        fontFamily: 'sans-serif'
+    },
 }))
 
 const EventsMain = () => {
@@ -31,7 +36,8 @@ const EventsMain = () => {
             </AppBar>
             <main>
                 <Container className={classes.tableContainer}>
-                    <Typography style={{ padding: '20px' }}>Events list</Typography>
+                    <Typography variant='h5' className={classes.typography} style={{ padding: '20px 20px 0 20px' }}>Events list</Typography>
+
                     <Table columns={columns} data={events.events} />
                 </Container>
             </main>
