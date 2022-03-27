@@ -18,7 +18,7 @@ export const createEventObject = (event) => {
 
     var createdEvent = {
         ...oldEvent,
-        eventId: oldEvent?.eventId || randomId(),
+        eventId: event.eventId > 0 ? event.eventId : randomId(),
         name: event.name,
         startDate: event.startDate,
         eventSeriesRound: {
