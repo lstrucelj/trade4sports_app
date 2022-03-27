@@ -113,7 +113,8 @@ const useStyles = makeStyles(() => ({
         textTransform: 'uppercase',
         fontFamily: 'sans-serif',
         color: 'black',
-        margin: '0 auto'
+        margin: '0 auto',
+        fontWeight: '700'
     },
     button: {
         margin: theme.spacing(1),
