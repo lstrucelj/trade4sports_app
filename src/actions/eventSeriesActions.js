@@ -9,6 +9,7 @@ const getEventSeries = (eventSeries) => {
 
 const fetchEventSeries = () => {
     return dispatch => {
+        //GET /eventSeries
         dispatch(getEventSeries(data.eventSeries))
     }
 }

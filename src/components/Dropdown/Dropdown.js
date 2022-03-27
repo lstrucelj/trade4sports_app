@@ -1,7 +1,16 @@
 import { FormControl, FormHelperText, InputLabel, MenuItem, Select } from '@material-ui/core'
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const Dropdown = ({ className, label, value, onChange, data, mapping, error, helperText, name }) => {
+    useEffect(() => {
+        if (data && data.length > 0) {
+            const exist = data.find(x => x[mapping.value] == value);
+            if (!exist && value != '') {
+                onChange({ target: { name, value: '' } })
+            }
+        }
+    }, [data])
+
     return (
         <>
             <FormControl variant="outlined" className={className} error={error}>

@@ -13,6 +13,7 @@ const getEvents = (events) => {
 
 const fetchEvents = () => {
     return dispatch => {
+        //GET /events
         dispatch(getEvents(data.events))
     }
 }
@@ -26,6 +27,7 @@ const createEvent = (event) => {
 
 const fetchCreateEvent = (event) => {
     return dispatch => {
+        //POST /events
         var createdEvent = createEventObject(event);
         dispatch(createEvent(createdEvent))
     }
@@ -40,6 +42,7 @@ const deleteEvent = (eventId) => {
 
 const fetchDeleteEvent = (event) => {
     return dispatch => {
+        //DELETE /events/{id}
         dispatch(deleteEvent(event.id))
     }
 }
@@ -53,6 +56,7 @@ const editEvent = (event) => {
 
 const fetchEditEvent = (event) => {
     return dispatch => {
+        //PATCH /events/{id}
         var updatedEvent = createEventObject(event);
         dispatch(editEvent(updatedEvent))
     }

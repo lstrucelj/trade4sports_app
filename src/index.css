@@ -6,12 +6,22 @@ body {
 
 footer {
     margin-top: auto;
-    height: 35px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#page {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
 }
 
 #main {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    margin: 0;
+    height: calc(100vh - 104px);
+}
+
+#root {
+    height: 100%;
 }

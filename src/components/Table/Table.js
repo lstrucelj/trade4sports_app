@@ -1,24 +1,12 @@
-import { Button, createTheme, makeStyles, ThemeProvider } from '@material-ui/core'
+import { createTheme, makeStyles, ThemeProvider } from '@material-ui/core'
 import { DataGrid, GridToolbar } from '@material-ui/data-grid'
 import React from 'react'
-import { Add } from '@material-ui/icons'
 
-const Table = ({ data, columns, handleOpen }) => {
+const Table = ({ data, columns }) => {
     const classes = useStyles();
 
     return (
         <>
-            <div className={classes.buttonContainer}>
-                <Button
-                    variant="contained"
-                    color="primary"
-                    className={classes.button}
-                    startIcon={<Add />}
-                    onClick={handleOpen}
-                >
-                    Add
-                </Button>
-            </div>
             <div className={classes.dataGridContainer}>
                 <ThemeProvider theme={theme}>
                     <DataGrid
@@ -60,16 +48,8 @@ const useStyles = makeStyles({
             backgroundColor: '#005a7f14'
         },
     },
-    button: {
-        margin: theme.spacing(1),
-        color: '#fff'
-    },
-    buttonContainer: {
-        textAlign: 'right',
-        padding: '0 10px 10px 10px'
-    },
     dataGridContainer: {
-        height: 770,
+        height: 'calc(100vh - 175px)',
         width: '100%'
     }
 });

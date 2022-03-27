@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Button, createTheme, makeStyles, Paper, TextField, ThemeProvider, Typography } from '@material-ui/core'
 import Dropdown from '../Dropdown/Dropdown';
-import venueData from '../../data/venues.json'
 import { KeyboardDatePicker, MuiPickersUtilsProvider } from '@material-ui/pickers';
 import DateFnsUtils from '@date-io/date-fns';
 import allActions from '../../actions'
@@ -15,10 +14,12 @@ const Form = ({ onCancel, data }) => {
     const dispatch = useDispatch();
     const eventSeriesData = useSelector(state => state.eventSeries)
     const contestantsData = useSelector(state => state.contestants)
+    const venuesData = useSelector(state => state.venues)
 
     useEffect(() => {
         dispatch(allActions.eventSeriesActions.fetchEventSeries())
         dispatch(allActions.contestantsActions.fetchContestants())
+        dispatch(allActions.venuesActions.fetchVenues())
     }, [])
 
     const [formValues, setFormValues] = useState({
@@ -53,38 +54,66 @@ const Form = ({ onCancel, data }) => {
         return (findContestant1 && findContestant2 && findContestant1.sportType.sportTypeId != findContestant2.sportType.sportTypeId)
     };
 
-    const validate = (name, value) => {
+    const validateField = (name, value, newFormValues) => {
         let error = value === '';
         let errorMessage = ERROR_MESSAGE_REQUIRED;
+        let validateObject = {
+            [name]: {
+                ...newFormValues[name],
+                error,
+                errorMessage
+            },
+        };
         switch (name) {
             case 'contestant1':
             case 'contestant2':
                 const secondContestant = name.slice(-1) == '2' ? 'contestant1' : 'contestant2';
-                if (checkSameContestant(value, formValues[secondContestant].value)) {
+                const sameContestant = checkSameContestant(value, formValues[secondContestant].value);
+                const sameSportType = checkSameSportType(value, formValues[secondContestant].value);
+                if (sameContestant) {
                     error = true;
                     errorMessage = 'Two contestants can not be the same!'
                 }
-                if (checkSameSportType(value, formValues[secondContestant].value)) {
+                if (sameSportType) {
                     error = true;
                     errorMessage = 'Both contestants need to be in the same sports type!'
                 }
+                if (newFormValues[name].value && newFormValues[secondContestant].value) {
+                    validateObject = {
+                        ...validateObject,
+                        [name]: {
+                            ...newFormValues[name],
+                            error,
+                            errorMessage
+                        },
+                        [secondContestant]: {
+                            ...newFormValues[secondContestant],
+                            error,
+                            errorMessage
+                        },
+                    }
+                }
                 break;
         }
-        return { error, errorMessage }
+
+        return validateObject;
     }
 
     const handleChange = (e) => {
         const { name, value } = e.target;
-        const { error, errorMessage } = validate(name, value);
-        setFormValues({
+        let newFormValues = {
             ...formValues,
             [name]: {
                 ...formValues[name],
                 value,
-                error: error,
-                errorMessage: errorMessage
-            }
-        })
+            },
+        }
+
+        const validateObject = validateField(name, value, newFormValues);
+        setFormValues({
+            ...newFormValues,
+            ...validateObject
+        });
     }
 
     const handleDateChange = (name) => {
@@ -110,23 +139,19 @@ const Form = ({ onCancel, data }) => {
         for (let index = 0; index < formFields.length; index++) {
             const currentField = formFields[index];
             const currentValue = formValues[currentField].value;
-
+            const validateObject = validateField(currentField, currentValue, newFormValues);
             newFormValues = {
                 ...newFormValues,
-                [currentField]: {
-                    ...newFormValues[currentField],
-                    error: currentValue === '',
-                    errorMessage: newFormValues[currentField].errorMessage || ERROR_MESSAGE_REQUIRED
-                }
+                ...validateObject
             }
         }
-        setFormValues(newFormValues)
+        setFormValues(newFormValues);
 
-        for (var field in newFormValues) {
-            if (newFormValues[field].error) {
-                return
-            }
+        const isError = Object.keys(newFormValues).some(x => newFormValues[x].error);
+        if (isError) {
+            return
         }
+
         const event = {
             eventId: newFormValues.eventId.value,
             eventSeriesId: newFormValues.eventSeries.value,
@@ -173,7 +198,7 @@ const Form = ({ onCancel, data }) => {
                         name="venue"
                         value={formValues.venue.value}
                         onChange={handleChange}
-                        data={venueData.venues}
+                        data={venuesData}
                         mapping={
                             {
                                 value: "venueId",

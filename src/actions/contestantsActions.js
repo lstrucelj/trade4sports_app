@@ -9,6 +9,7 @@ const getContestants = (contestants) => {
 
 const fetchContestants = () => {
     return dispatch => {
+        //GET /contestants
         dispatch(getContestants(data.contestants))
     }
 }
