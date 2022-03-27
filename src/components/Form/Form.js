@@ -1,116 +1,70 @@
+import React, { useEffect, useState } from 'react'
 import { Button, createTheme, makeStyles, Paper, TextField, ThemeProvider, Typography } from '@material-ui/core'
-import React, { useState } from 'react'
 import Dropdown from '../Dropdown/Dropdown';
-import eventSeriesData from '../../data/event_series.json'
 import venueData from '../../data/venues.json'
-import contestantData from '../../data/contestants.json'
 import { KeyboardDatePicker, MuiPickersUtilsProvider } from '@material-ui/pickers';
 import DateFnsUtils from '@date-io/date-fns';
-
-const theme = createTheme({
-    palette: {
-        primary: {
-            main: '#4ba3c7',
-        },
-    },
-});
-
-const useStyles = makeStyles((theme) => ({
-    paper: {
-        position: 'absolute',
-        width: 400,
-        backgroundColor: theme.palette.background.paper,
-        boxShadow: theme.shadows[5],
-        padding: theme.spacing(2, 4, 3),
-    },
-    formControl: {
-        margin: theme.spacing(1),
-        minWidth: 380,
-    },
-    selectEmpty: {
-        marginTop: theme.spacing(2),
-    },
-    button: {
-        margin: '20px 10px 0',
-        color: '#fff',
-        width: '100px'
-    },
-}));
-
-function getModalStyle() {
-    const top = 50;
-    const left = 50;
-
-    return {
-        top: `${top}%`,
-        left: `${left}%`,
-        transform: `translate(-${top}%, -${left}%)`,
-    };
-}
+import allActions from '../../actions'
+import { useDispatch, useSelector } from 'react-redux'
+import moment from 'moment';
 
 const ERROR_MESSAGE_REQUIRED = 'This field is required!';
 
-const Form = () => {
+const Form = ({ onCancel, data }) => {
     const classes = useStyles();
-    const [modalStyle] = useState(getModalStyle);
+    const dispatch = useDispatch();
+    const eventSeriesData = useSelector(state => state.eventSeries)
+    const contestantsData = useSelector(state => state.contestants)
+
+    useEffect(() => {
+        dispatch(allActions.eventSeriesActions.fetchEventSeries())
+        dispatch(allActions.contestantsActions.fetchContestants())
+    }, [])
 
     const [formValues, setFormValues] = useState({
+        eventId: {
+            value: data?.eventId || 0
+        },
         eventSeries: {
-            value: '',
-            error: false,
-            errorMessage: ERROR_MESSAGE_REQUIRED
+            value: data?.eventSeries || '',
         },
         venue: {
-            value: '',
-            error: false,
-            errorMessage: ERROR_MESSAGE_REQUIRED
+            value: data?.venue || '',
         },
         name: {
-            value: '',
-            error: false,
-            errorMessage: ERROR_MESSAGE_REQUIRED
+            value: data?.name || '',
         },
         startDate: {
-            value: new Date(),
-            error: false,
-            errorMessage: ERROR_MESSAGE_REQUIRED
+            value: data?.startDate || new Date(),
         },
         contestant1: {
-            value: '',
-            error: false,
-            errorMessage: ERROR_MESSAGE_REQUIRED
+            value: data?.contestant1 || '',
         },
         contestant2: {
-            value: '',
-            error: false,
-            errorMessage: ERROR_MESSAGE_REQUIRED
+            value: data?.contestant2 || '',
         }
     })
+
+    const checkSameContestant = (firstId, secondId) => firstId == secondId;
+    const checkSameSportType = (firstId, secondId) => {
+        var findContestant1 = contestantsData.find(x => x.contestantId == firstId)
+        var findContestant2 = contestantsData.find(x => x.contestantId == secondId);
+
+        return (findContestant1 && findContestant2 && findContestant1.sportType.sportTypeId != findContestant2.sportType.sportTypeId)
+    };
 
     const validate = (name, value) => {
         let error = value === '';
         let errorMessage = ERROR_MESSAGE_REQUIRED;
         switch (name) {
             case 'contestant1':
-                if (value == formValues.contestant2.value) {
-                    error = true;
-                    errorMessage = 'Two contestants can not be the same!'
-                }
-                var findContestant1 = contestantData.contestants.find(x => x.contestantId == value)
-                var findContestant2 = contestantData.contestants.find(x => x.contestantId == formValues.contestant2.value)
-                if (findContestant1 && findContestant2 && findContestant1.sportType.sportTypeId != findContestant2.sportType.sportTypeId) {
-                    error = true;
-                    errorMessage = 'Both contestants need to be in the same sports type!'
-                }
-                break;
             case 'contestant2':
-                if (value == formValues.contestant1.value) {
+                const secondContestant = name.slice(-1) == '2' ? 'contestant1' : 'contestant2';
+                if (checkSameContestant(value, formValues[secondContestant].value)) {
                     error = true;
                     errorMessage = 'Two contestants can not be the same!'
                 }
-                var findContestant1 = contestantData.contestants.find(x => x.contestantId == value)
-                var findContestant2 = contestantData.contestants.find(x => x.contestantId == formValues.contestant2.value)
-                if (findContestant1 && findContestant2 && findContestant1.sportType.sportTypeId != findContestant2.sportType.sportTypeId) {
+                if (checkSameSportType(value, formValues[secondContestant].value)) {
                     error = true;
                     errorMessage = 'Both contestants need to be in the same sports type!'
                 }
@@ -161,25 +115,49 @@ const Form = () => {
                 ...newFormValues,
                 [currentField]: {
                     ...newFormValues[currentField],
-                    error: currentValue === ''
+                    error: currentValue === '',
+                    errorMessage: newFormValues[currentField].errorMessage || ERROR_MESSAGE_REQUIRED
                 }
             }
         }
         setFormValues(newFormValues)
+
+        for (var field in newFormValues) {
+            if (newFormValues[field].error) {
+                return
+            }
+        }
+        const event = {
+            eventId: newFormValues.eventId.value,
+            eventSeriesId: newFormValues.eventSeries.value,
+            venueId: newFormValues.venue.value,
+            name: newFormValues.name.value,
+            startDate: moment(newFormValues.startDate.value).format('YYYY-MM-DD'),
+            contestant1Id: newFormValues.contestant1.value,
+            contestant2Id: newFormValues.contestant2.value,
+        }
+        if (data) {
+            dispatch(allActions.eventActions.fetchEditEvent(event));
+        }
+        else {
+            dispatch(allActions.eventActions.fetchCreateEvent(event));
+        }
+
+        onCancel();
     }
 
     return (
         <>
             <ThemeProvider theme={theme}>
-                <Paper style={modalStyle} className={classes.paper}>
-                    <Typography variant='h5' style={{ padding: '20px 0' }}>Create new event</Typography>
+                <Paper className={classes.paper}>
+                    <Typography variant='h5' className={classes.title}>Create new event</Typography>
                     <Dropdown
                         className={classes.formControl}
                         label="Event Series"
                         name="eventSeries"
                         value={formValues.eventSeries.value}
                         onChange={handleChange}
-                        data={eventSeriesData.eventSeries}
+                        data={eventSeriesData}
                         mapping={
                             {
                                 value: "eventSeriesId",
@@ -222,7 +200,7 @@ const Form = () => {
                             className={classes.formControl}
                             autoOk
                             variant='inline'
-                            format="MM/dd/yyyy"
+                            format="yyyy-MM-dd"
                             margin="normal"
                             label="Start Date"
                             value={formValues.startDate.value}
@@ -242,7 +220,7 @@ const Form = () => {
                         name="contestant1"
                         value={formValues.contestant1.value}
                         onChange={handleChange}
-                        data={contestantData.contestants}
+                        data={contestantsData}
                         mapping={
                             {
                                 value: "contestantId",
@@ -258,7 +236,7 @@ const Form = () => {
                         name="contestant2"
                         value={formValues.contestant2.value}
                         onChange={handleChange}
-                        data={contestantData.contestants}
+                        data={contestantsData}
                         mapping={
                             {
                                 value: "contestantId",
@@ -268,18 +246,54 @@ const Form = () => {
                         error={formValues.contestant2.error}
                         helperText={formValues.contestant2.error && formValues.contestant2.errorMessage}
                     />
-                    <div style={{ textAlign: 'center' }}>
-                        <Button variant="contained" color="primary" className={classes.button} onClick={handleSubmit}>
-                            SAVE
-                        </Button>
-                        <Button variant="contained" color="secondary" className={classes.button}>
-                            CANCEL
-                        </Button>
+                    <div className={classes.buttonContainer}>
+                        <Button variant="contained" color="primary" className={classes.button} onClick={handleSubmit}>SAVE</Button>
+                        <Button variant="contained" color="secondary" className={classes.button} onClick={onCancel}>CANCEL</Button>
                     </div>
                 </Paper>
             </ThemeProvider>
         </>
     )
 }
+
+const theme = createTheme({
+    palette: {
+        primary: {
+            main: '#4ba3c7',
+        },
+    },
+});
+
+const useStyles = makeStyles((theme) => ({
+    paper: {
+        position: 'absolute',
+        width: 600,
+        backgroundColor: theme.palette.background.paper,
+        boxShadow: theme.shadows[5],
+        padding: theme.spacing(2, 4, 3),
+        top: '50%',
+        left: '50%',
+        transform: `translate(-50%, -50%)`
+    },
+    formControl: {
+        margin: theme.spacing(1),
+        width: 280,
+    },
+    selectEmpty: {
+        marginTop: theme.spacing(2),
+    },
+    button: {
+        margin: '20px 10px 0',
+        color: '#fff',
+        width: '100px'
+    },
+    title: {
+        padding: '20px 0'
+    },
+    buttonContainer: {
+        textAlign: 'center'
+    }
+
+}));
 
 export default Form
